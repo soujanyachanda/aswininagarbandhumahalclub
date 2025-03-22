@@ -864,9 +864,10 @@ a:focus {
 }
 
 .info_section {
-  background-color: #004445;
+  background-color: #000;
   color: #ffffff;
   padding: 45px 0 10px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .info_section h5 {
@@ -1010,6 +1011,7 @@ a:focus {
   width: auto;
   margin-right: 10px;
 }
+
 
 
 
