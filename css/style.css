@@ -249,7 +249,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 5px 30px;
+  padding: 5px 10px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -1007,11 +1007,15 @@ a:focus {
 }
 
 .logo-img {
-  height: 150px;
+  height: 100px;
   width: auto;
   margin-right: 10px;
 }
 
+.single-courses-style1 img {
+  max-width: 220px;
+  height: 250px;
+}
 
 
 
