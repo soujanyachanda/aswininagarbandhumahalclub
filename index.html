@@ -32,390 +32,398 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+  <!-- Lightbox2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+  <!-- Add this in <head> if not present -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Add at the end of body for toggler functionality -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- jQuery (required for Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+
 </head>
 
 <body>
-  <div class="hero_area">
-    <div class="hero_bg_box">
-      <img src="images/puja-bg.jpg" alt="" class="img-fluid">
+  <div id="header"></div>
+  <!-- end header section -->
+  <!-- slider section -->
+  <section class="hero-slider">
+    <div class="slider-container">
+      <!-- Slide 1 -->
+      <div class="slider-item active" style="background-image: url('images/puja-bg.jpg');">
+        <div class="slider-overlay"></div>
+        <div class="slider-content">
+          <h1 class="slider-title">45 Years of Durga Puja – Where Heritage Meets the Future!</h1>
+          <p class="slider-text">45 years of Maa Durga's blessings, a legacy of devotion. Celebrating tradition,
+            embracing the future!</p>
+          <a href="#modern-puja-banner" class="slider-button">Durga Puja</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slider-item" style="background-image: url('images/slider-2.jpg');">
+        <div class="slider-overlay"></div>
+        <div class="slider-content">
+          <h1 class="slider-title">Where Culture Meets Community</h1>
+          <p class="slider-text">Aswininagar Bandhumahal Club is a community-focused organization dedicated to cultural
+            and social welfare.</p>
+          <a href="#about_section" class="slider-button">About Us</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slider-item" style="background-image: url('images/slider-3.jpg');">
+        <div class="slider-overlay"></div>
+        <div class="slider-content">
+          <h1 class="slider-title">More Than a Club, A Family</h1>
+          <p class="slider-text">More than just a club, we are a family that celebrates art, tradition, and social
+            welfare.</p>
+          <a href="#about_section" class="slider-button">About Us</a>
+        </div>
+      </div>
     </div>
-    <!-- header section strats -->
-    <div id="header"></div>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-lg-10 col-md-11 mx-auto">
-                  <div class="detail-box">
-                    <h1>
-                      45 Years of Durga Puja – Where Heritage Meets the Future!
-                    </h1>
-                    <p>
-                      45 years of Maa Durga’s blessings, a legacy of devotion.
-                      Celebrating tradition, embracing the future!"
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Durga Puja
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-lg-10 col-md-11 mx-auto">
-                  <div class="detail-box">
-                    <h1>
-                      Where Culture Meets Community
-                    </h1>
-                    <p>
-                      Aswininagar Bandhumahal Club is a community-focused organization dedicated to cultural and social
-                      welfare. We actively engage in events, activities, and initiatives that foster unity and
-                      creativity.
-                    </p>
-                    <div class="btn-box">
-                      <a href="#about_section" class="btn1">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-lg-10 col-md-11 mx-auto">
-                  <div class="detail-box">
-                    <h1>
-                      More Than a Club, A Family
-                    </h1>
-                    <p>
-                      More than just a club, we are a family that celebrates art, tradition, and social welfare.
-                      Aswininagar Bandhumahal Club is committed to empowering communities through cultural engagement.
-                    </p>
-                    <div class="btn-box">
-                      <a href="#about_section" class="btn1">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel_btn-box">
-          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
+
+    <div class="slider-controls">
+      <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
 
 
-  <!-- activity section -->
 
-  <section class="service_section layout_padding">
+
+  <!-- Modern Activities Section -->
+  <section class="activities-section">
     <div class="container">
-      <div class="heading_container heading_center ">
-        <h2 class="">
-          Our Activities
-        </h2>
-        <br>
-        <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-3">
-            <div class="single-courses-style1">
-              <div class="img-holder">
-                <img src="images/drawing.jpg" width="270" height="320"
-                  alt="Awesome Image">
-              </div>
-              <div class="text-holder">
-                <br>
-                <h4>Drawing Competition</h4>
-                2024
-              </div>
+      <div class="section-header">
+        <h2 class="section-title">Our <span>Activities</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Community initiatives that make a difference</p>
+      </div>
+
+      <div class="activities-grid">
+        <!-- Drawing Competition -->
+        <div class="activity-card">
+          <div class="card-image">
+            <img src="images/drawing.jpg" alt="Drawing Competition">
+            <div class="card-year">2024</div>
+          </div>
+          <div class="card-content">
+            <h3>Drawing Competition</h3>
+            <div class="card-underline"></div>
+            <p>Nurturing young artistic talents in our community</p>
+            <div class="card-hover-content">
+              <a href="gallery.html" class="card-link">View Gallery →</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3">
-            <div class="single-courses-style1">
-              <div class="img-holder">
-                <img src="images/blood.jpg" 
-                  alt="Awesome Image">
-              </div>
-              <div class="text-holder">
-                <br>
-                <h4>Medical Camp</h4>
-                2023
-              </div>
+        </div>
+
+        <!-- Medical Camp -->
+        <div class="activity-card">
+          <div class="card-image">
+            <img src="images/blood.jpg" alt="Medical Camp">
+            <div class="card-year">2023</div>
+          </div>
+          <div class="card-content">
+            <h3>Medical Camp</h3>
+            <div class="card-underline"></div>
+            <p>Providing healthcare services to underserved communities</p>
+            <div class="card-hover-content">
+              <a href="gallery.html" class="card-link">View Gallery →</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3">
-            <div class="single-courses-style1">
-              <div class="img-holder">
-                <img src="images/mela.jpg" 
-                  alt="Awesome Image">
-              </div>
-              <div class="text-holder">
-                <br>
-                <h4>Employment Expo</h4>
-                2024
-              </div>
+        </div>
+
+        <!-- Employment Expo -->
+        <div class="activity-card">
+          <div class="card-image">
+            <img src="images/mela.jpg" alt="Employment Expo">
+            <div class="card-year">2024</div>
+          </div>
+          <div class="card-content">
+            <h3>Employment Expo</h3>
+            <div class="card-underline"></div>
+            <p>Connecting job seekers with employment opportunities</p>
+            <div class="card-hover-content">
+              <a href="gallery.html" class="card-link">View Gallery →</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-6 col-md-6">
-            <div class="single-courses-style1">
-              <div class="img-holder">
-                <img src="images/tree.jpg " 
-                  alt="Awesome Image">
-              </div>
-              <div class="text-holder">
-                <br>
-                <h4>Tree Plantation</h4>
-                2024
-              </div>
+        </div>
+
+        <!-- Tree Plantation -->
+        <div class="activity-card">
+          <div class="card-image">
+            <img src="images/tree.jpg" alt="Tree Plantation">
+            <div class="card-year">2024</div>
+          </div>
+          <div class="card-content">
+            <h3>Tree Plantation</h3>
+            <div class="card-underline"></div>
+            <p>Greening our neighborhood for a sustainable future</p>
+            <div class="card-hover-content">
+              <a href="gallery.html" class="card-link">View Gallery →</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View More
+
+      <div class="section-footer">
+        <a href="gallery.html" class="modern-btn">
+          <span>View More Activities</span>
+          <svg viewBox="0 0 13 10" height="10px" width="15px">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- service section ends -->
-
-  <!-- about section -->
-
-  <section class="about_section" id="about_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5 offset-md-1">
-          <div class="detail-box pr-md-2">
-            <div class="heading_container">
-              <h2 class="">
-                About Us
-              </h2>
-            </div>
-            <p class="detail_p_mt">
-              Aswininagar Bandhumahal Club is not just an organization—it’s a legacy of devotion, celebration, and
-              social responsibility. Our journey is woven with traditions that bring people together, <br><br> with
-              Durga Puja
-              standing as the heart and soul of our club. This grand festival is more than an annual event; it’s a
-              reflection of our cultural pride, artistic excellence, and unwavering spirit of unity.
-
-              Beyond the festival, we dedicate ourselves to social welfare, cultural programs, and community-driven
-              initiatives, ensuring that our impact goes beyond celebration. <br><br>
-
-              Established in 1992, we continue to embrace our heritage while shaping a future filled with
-              togetherness, progress, and devotion. <br><br>
-
-              <b>Join us in this journey of tradition, unity, and growth!</b>
-            </p>
-            <a href="about.html" class="">
-              Read More
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 px-0">
-          <div class="img-box ">
-            <img src="images/about.jpg" class="box_img img-fluid" alt="about img">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- about section ends -->
-
-  <!-- durgapuja section -->
-
-  <section class="team_section layout_padding">
+  <!-- Modern About Section -->
+  <section class="about-section" id="about_section">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Durga Puja Section
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-          iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t1.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Martin Anderson
-              </h5>
-              <h6 class="">
-                supervisor
-              </h6>
-            </div>
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="section-header">
+            <h2 class="section-title">About <span>Us</span></h2>
+            <div class="section-divider"></div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t2.jpg" alt="" class="img-fluid">
+
+          <div class="about-text">
+            <p>Aswininagar Bandhumahal Club is not just an organization—it's a legacy of devotion, celebration, and
+              social responsibility. Our journey is woven with traditions that bring people together.</p>
+
+            <div class="highlight-box">
+              <p>Durga Puja stands as the heart and soul of our club. This grand festival is more than an annual event;
+                it's a reflection of our cultural pride, artistic excellence, and unwavering spirit of unity.</p>
             </div>
-            <div class="detail-box">
-              <h5>
-                Denny Butler
-              </h5>
-              <h6 class="">
-                supervisor
-              </h6>
-            </div>
+
+            <p>Beyond the festival, we dedicate ourselves to social welfare, cultural programs, and community-driven
+              initiatives, ensuring that our impact goes beyond celebration.</p>
+
+            <p class="established">Established in <strong>1992</strong></p>
           </div>
+
+          <a href="about.html" class="modern-btn">
+            <span>Read Our Story</span>
+            <svg viewBox="0 0 13 10" height="10px" width="15px">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
         </div>
-        <div class="col-md-4 col-sm-6 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t3.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Nathan Mcpherson
-              </h5>
-              <h6 class="">
-                supervisor
-              </h6>
-            </div>
+
+        <div class="about-image">
+          <div class="image-frame">
+            <img src="images/about.jpg" alt="About Aswininagar Bandhumahal Club" class="featured-image">
+            <div class="image-overlay"></div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Modern Durga Puja Banner Section -->
+  <section class="modern-puja-banner" id="modern-puja-banner">
+    <div class="banner-header">
+      <h2 class="section-title">Durga Puja Art <span>2025</span></h2>
+      <div class="section-divider"></div>
+      <p class="banner-tagline">THE BIGGEST CULTURAL ATTRACTION</p>
+    </div>
+
+    <div class="banner-container">
+      <div class="banner-image-container">
+        <img src="images/poster.jpg" alt="Durga Puja 2025" class="banner-image">
+        <div class="banner-overlay"></div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- end team section -->
 
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container ">
-      <div class="heading_container heading_center">
-        <h2>
-          Testimonial
-        </h2>
-        <hr>
+  <!---->
+  <section class="achievements-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Proud <span>Winner</span></h2>
+        <div class="section-divider"></div>
       </div>
-      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-7 col-md-9 mx-auto">
-                <div class="client_container ">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      Jone Mark
-                    </h5>
-                    <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
-                      uncover many web sites still in their infancy. Various versions have evolved over the years,
-                      sometimes by
-                    </p>
-                    <span>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+      <div class="awards-grid">
+        <!-- 2017 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
           </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-7 col-md-9 mx-auto">
-                <div class="client_container ">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      Jone Mark
-                    </h5>
-                    <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
-                      uncover many web sites still in their infancy. Various versions have evolved over the years,
-                      sometimes by
-                    </p>
-                    <span>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-7 col-md-9 mx-auto">
-                <div class="client_container ">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      Jone Mark
-                    </h5>
-                    <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
-                      uncover many web sites still in their infancy. Various versions have evolved over the years,
-                      sometimes by
-                    </p>
-                    <span>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2017</p>
           </div>
         </div>
-        <div class="carousel_btn-box">
-          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-            <span>
-              <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-            <span>
-              <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </span>
-            <span class="sr-only">Next</span>
-          </a>
+
+        <!-- 2018 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2018</p>
+          </div>
+        </div>
+
+        <!-- 2019 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2019</p>
+          </div>
+        </div>
+
+        <!-- 2021 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2021</p>
+          </div>
+        </div>
+
+        <!-- 2023 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2023</p>
+          </div>
+        </div>
+
+        <!-- 2024 Award -->
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Winner of ASIAN PAINTS</h3>
+            <p class="award-title">Srestho Pujo</p>
+            <p class="award-year">2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+
+  <!-- sponsor section -->
+
+  <section class="sponsors-section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 class="section-title">Our Valued <span>Sponsors</span></h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="sponsor-slider">
+        <div id="sponsorCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/asian-paints.png" alt="Asian Paints" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/tata-steel.png" alt="Tata Steel" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/itc.png" alt="ITC" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/hul.png" alt="HUL" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/pepsi.png" alt="Pepsi" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/coca-cola.png" alt="Coca Cola" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/britannia.png" alt="Britannia" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-2 col-4">
+                  <div class="sponsor-item">
+                    <img src="images/sponsors/parle.png" alt="Parle" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#sponsorCarousel" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#sponsorCarousel" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- end client section -->
+  <!-- end sponsor section -->
   <!-- footer section -->
   <div id="footer"></div>
   <!-- footer section -->
@@ -454,6 +462,78 @@
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sliderItems = document.querySelectorAll('.slider-item');
+      const prevBtn = document.querySelector('.slider-prev');
+      const nextBtn = document.querySelector('.slider-next');
+      let currentSlide = 0;
+      let slideInterval;
+
+      // Initialize slider
+      function showSlide(index) {
+        sliderItems.forEach(item => item.classList.remove('active'));
+        sliderItems[index].classList.add('active');
+        currentSlide = index;
+      }
+
+      // Next slide
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % sliderItems.length;
+        showSlide(currentSlide);
+        resetTimer();
+      }
+
+      // Previous slide
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + sliderItems.length) % sliderItems.length;
+        showSlide(currentSlide);
+        resetTimer();
+      }
+
+      // Reset timer
+      function resetTimer() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 5000);
+      }
+
+      // Button events
+      nextBtn.addEventListener('click', nextSlide);
+      prevBtn.addEventListener('click', prevSlide);
+
+      // Auto slide change
+      slideInterval = setInterval(nextSlide, 5000);
+
+      // Pause on hover
+      const slider = document.querySelector('.slider-container');
+      slider.addEventListener('mouseenter', () => clearInterval(slideInterval));
+      slider.addEventListener('mouseleave', resetTimer);
+
+      // Show first slide initially
+      showSlide(0);
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const mainNav = document.querySelector('.main-navigation');
+
+      mobileToggle.addEventListener('click', function () {
+        this.classList.toggle('active');
+        mainNav.classList.toggle('active');
+      });
+
+      // Close menu when clicking on nav links
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          mobileToggle.classList.remove('active');
+          mainNav.classList.remove('active');
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
