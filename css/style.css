@@ -2043,10 +2043,6 @@ a:focus {
 }
 
 /* Enhanced About Section Styles */
-.about-section {
-  padding: 100px 0;
-  background-color: #f9f9f9;
-}
 
 .about-grid {
   display: grid;
