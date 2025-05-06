@@ -6,6 +6,9 @@ body {
   overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
 /* Layout Padding Utilities */
 .layout_padding {
   padding: 90px 0;
@@ -947,7 +950,6 @@ a:focus {
   width: 45px;
   height: 45px;
   border-radius: 5px;
-  text-decoration: none;
   color: #ffffff;
   margin-right: 5px;
   font-size: 24px;
