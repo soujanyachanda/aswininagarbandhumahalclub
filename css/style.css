@@ -9,6 +9,11 @@ body {
 a {
     text-decoration: none !important;
 }
+
+.w-full{
+  width: 100%;
+  height: 80vh;
+}
 /* Layout Padding Utilities */
 .layout_padding {
   padding: 90px 0;
@@ -2528,3 +2533,4 @@ a:focus {
     width: 80px;
   }
 }
+
