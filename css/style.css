@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 /* Layout Padding Utilities */
 .layout_padding {
