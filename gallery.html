@@ -769,6 +769,17 @@
       .then(data => {
         document.getElementById('footer').innerHTML = data;
       });
+      
+  </script>
+  <script>
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 700) {
+        header.classList.add('custom-header');
+      } else {
+        header.classList.remove('custom-header');
+      }
+    });
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {

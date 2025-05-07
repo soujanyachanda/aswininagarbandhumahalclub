@@ -78,17 +78,23 @@ a:focus {
 
 /* Header Styles */
 .header-section {
-  background-color: #000;
-  padding: 15px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: top;
+	width: 95%;
+	margin: 0 auto;
+	backdrop-filter: blur(6px);
+	position: fixed;
+	top: 18px;
+	border-radius: 30px;
+	transform: translate (-50% -50%);
+  z-index: 111;
+  transition: all 0.3s ease;
+  transform-origin: center;
+  left: 3%;
+  background: #ffffff14;
 }
 
 .header-container {
-  max-width: 1200px;
+  /*! max-width: 1200px; */
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -100,6 +106,7 @@ a:focus {
   height: 100px;
   width: auto;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 /* Navigation Styles */
@@ -129,6 +136,7 @@ a:focus {
   padding: 8px 0;
   position: relative;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .nav-item.active .nav-link,
@@ -169,6 +177,7 @@ a:focus {
   width: 100%;
   background-color: #fff;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 /* Mobile Menu Styles */
@@ -363,6 +372,7 @@ a:focus {
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  transform-origin: center;
   box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
   opacity: 0;
   transform: translateY(20px);
@@ -400,6 +410,7 @@ a:focus {
   margin: 0 10px;
   cursor: pointer;
   transition: all 0.3s ease;
+  transform-origin: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1206,6 +1217,7 @@ a:focus {
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
+  transform-origin: center;
   position: relative;
 }
 
@@ -1260,6 +1272,7 @@ a:focus {
   background: #e63946;
   margin: 0.8rem 0;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .activity-card:hover .card-underline {
@@ -1277,6 +1290,7 @@ a:focus {
   height: 0;
   overflow: hidden;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .activity-card:hover .card-hover-content {
@@ -1290,6 +1304,7 @@ a:focus {
   display: inline-flex;
   align-items: center;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .card-link:hover {
@@ -1550,6 +1565,7 @@ a:focus {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
+  transform-origin: center;
   border: none;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(230, 57, 70, 0.3);
@@ -1566,6 +1582,7 @@ a:focus {
 .modern-btn svg {
   margin-left: 8px;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .modern-btn:hover svg {
@@ -1852,6 +1869,7 @@ a:focus {
   padding: 2rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
+  transform-origin: center;
   display: flex;
   align-items: center;
   border-left: 4px solid #e63946;
@@ -1954,6 +1972,7 @@ a:focus {
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  transform-origin: center;
   height: 120px;
   display: flex;
   align-items: center;
@@ -1968,6 +1987,7 @@ a:focus {
   filter: grayscale(100%);
   opacity: 0.8;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .sponsor-item:hover img {
@@ -2447,6 +2467,7 @@ a:focus {
   height: 100%;
   opacity: 0;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .bg1 {
@@ -2464,6 +2485,7 @@ a:focus {
   justify-content: center;
   opacity: 0;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .box {
@@ -2481,6 +2503,7 @@ a:focus {
   background: rgba(255,255,255,0.2);
   border-radius: 50%;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .single-portfolio-style1:hover .overlay-style1,
@@ -2534,3 +2557,28 @@ a:focus {
   }
 }
 
+.main-header{
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.main-header.custom-header {
+	background: top;
+	width: 79%;
+	margin: 0 auto;
+	backdrop-filter: blur(6px);
+	position: fixed;
+	left: 10%;
+	top: 18px;
+	border-radius: 30px;
+	transform: translate (-50% -50%);
+  transition: all 0.3s ease;
+  transform-origin: center;
+	background: #ffffff5c;
+}
+
+.main-header.custom-header .nav-link{
+  transition: all 0.3s ease;
+  transform-origin: center;
+  color: #000 !important;
+}

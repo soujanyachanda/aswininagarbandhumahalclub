@@ -172,6 +172,16 @@
       });
     });
   </script>
+  <script>
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 700) {
+        header.classList.add('custom-header');
+      } else {
+        header.classList.remove('custom-header');
+      }
+    });
+  </script>
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->

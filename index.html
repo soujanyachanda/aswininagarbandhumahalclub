@@ -439,6 +439,7 @@
         <iframe
         src="https://calendar.google.com/calendar/embed?height=259&wkst=1&ctz=UTC&title=Aswininagar%20Bandhumahal%20Club&hl=en_GB&showPrint=0&src=c291amFueWFjaGFuZGExOTkwQGdtYWlsLmNvbQ&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%23D50000"
         style="border:solid 1px #777" class="w-full" ></iframe>
+        <!-- <div style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div> -->
        </div>
       </div>
     </div>
@@ -484,6 +485,17 @@
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
+
+  <script>
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 700) {
+        header.classList.add('custom-header');
+      } else {
+        header.classList.remove('custom-header');
+      }
+    });
+  </script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
